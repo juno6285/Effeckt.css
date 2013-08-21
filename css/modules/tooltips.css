@@ -46,3 +46,11 @@
   margin-top: -4px; }
 .effeckt-tooltip[data-effeckt-tooltip-type="bubble"][data-effeckt-tooltip-position="bottom"]:hover::before, .effeckt-tooltip[data-effeckt-tooltip-type="bubble"][data-effeckt-tooltip-position="bottom"]:hover::after {
   top: 115%; }
+
+.effeckt-tooltip[data-effeckt-tooltip-type="bubble"][data-effeckt-tooltip-position="left"]::after, .effeckt-tooltip[data-effeckt-tooltip-type="bubble"][data-effeckt-tooltip-position="left"]::before {
+  left: 125%; }
+.effeckt-tooltip[data-effeckt-tooltip-type="bubble"][data-effeckt-tooltip-position="left"]::before {
+  border-bottom: 5px solid black;
+  margin-top: -4px; }
+.effeckt-tooltip[data-effeckt-tooltip-type="bubble"][data-effeckt-tooltip-position="left"]:hover::before, .effeckt-tooltip[data-effeckt-tooltip-type="bubble"][data-effeckt-tooltip-position="left"]:hover::after {
+  top: 115%; }

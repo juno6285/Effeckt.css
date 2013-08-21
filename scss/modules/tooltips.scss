@@ -79,3 +79,18 @@
    top: 115%;
   }
 }
+// bubble orientation left
+.effeckt-tooltip[data-effeckt-tooltip-type="bubble"][data-effeckt-tooltip-position="left"] {
+  &::after, &::before {
+   left: 125%;
+  }
+
+  &::before {
+   border-bottom: 5px solid $effeckt-tooltip-background;
+   margin-top: -4px; // one less pixel to prevent occational 1px gap
+  }
+
+  &:hover::before, &:hover::after {
+   top: 115%;
+  }
+}
